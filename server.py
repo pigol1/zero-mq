@@ -18,4 +18,4 @@ while True:
     response = handle_message(message)
     sock.send_string(response)
 
-
+print("Shutting down!")
